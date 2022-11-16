@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>04Info</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-title">
+        <h1 class="page-title">Contact Information</h1>
+        <span class="page-number">04</span>
+      </div>
+      <h2 class="page-subtitle underline">
+        Let's have a talk, and get in touch with me
+      </h2>
+    </header>
+
+    <section id="info">
+      <nav>
+        <div class="nav-links">
+          <a href="/home.html" target="_blank" class="nav-link">01 Home</a>
+          <a href="/skills.html" target="_blank" class="nav-link">02 Skills</a>
+          <a href="/projects.html" target="_blank" class="nav-link"
+            >03 Project</a
+          >
+          <a href="/info.html" class="nav-link active">04 Info</a>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="contacts-content">
+          <!-- CONTACT FORM -->
+          <div>
+            <form class="contacts-form" action="">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  type="text"
+                  name="full-name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email Address</label>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="me@example.com"
+                  required
+                />
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="5"
+                  placeholder="Your message"
+                ></textarea>
+              </div>
+            </form>
+            <a href="mailto:icbroqueza13@gmail.com" class="email-btn"
+              >Send <ion-icon name="paper-plane-outline"></ion-icon
+            ></a>
+          </div>
+
+          <!-- CONTACT INFO -->
+          <div class="contact-info">
+            <div>
+              <div class="contact-title">
+                <h2 class="heading-contacts">
+                  <span
+                    ><ion-icon class="icon" name="location-outline"></ion-icon
+                  ></span>
+                  Address
+                </h2>
+              </div>
+              <div class="contacts-text">
+                <p class="contacts-description">
+                  Brgy. 46 Purok 3, San Joaquin <br />
+                  Legazpi City, Albay, 4500
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="contact-title">
+                <h2 class="heading-contacts">
+                  <span
+                    ><ion-icon class="icon" name="call-outline"></ion-icon
+                  ></span>
+                  Phone
+                </h2>
+              </div>
+              <div class="contacts-text">
+                <p class="contacts-description">0939 - 435 - 0806</p>
+              </div>
+            </div>
+            <div>
+              <div class="contact-title">
+                <h2 class="heading-contacts">
+                  <span
+                    ><ion-icon class="icon" name="mail-outline"></ion-icon
+                  ></span>
+                  Email
+                </h2>
+              </div>
+              <div class="contacts-text">
+                <p class="contacts-description">icbroqueza13@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="nav-arrows">
+      <a href="/projects.html" class="nav-arrow"
+        ><ion-icon name="arrow-back-outline"></ion-icon>
+      </a>
+    </div>
+
+    <footer>
+      <div class="social-links">
+        <a href="#" class="social-link"
+          ><ion-icon name="logo-twitter"></ion-icon
+        ></a>
+        <a href="#" class="social-link"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="#" class="social-link"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+      </div>
+      <div>
+        <a href="mailto:icbroqueza13@gmail.com" class="social-link"
+          ><ion-icon name="mail-outline"></ion-icon> GET IN TOUCH</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
